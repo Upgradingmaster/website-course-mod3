@@ -1,0 +1,108 @@
+body {
+	font-size:  16px;
+	color:  black;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#nav-container{
+	margin-left: 0px;
+}
+/*Only on xs*/
+@media (max-width: 576px){
+	#nav-container{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border-bottom: 3px solid black;
+}
+
+
+.navbar-brand h1{ /* Name*/
+	font-family:  "Lora", serif;
+	color:  black;
+	font-size:  1.5em;
+	text_transform:  uppercase;
+	font-weight:  bold;
+	text-shadow:  0.8px 1px 1px #231F20;
+	margin-top:  0;
+	margin-bottom:  0;
+	line-height: 0.75;
+	padding-top:8px;
+	padding-bottom: 15px;
+}
+
+.navbar-brand{
+	display: inline !important;
+	margin-left: 35px;
+}
+
+
+.navbar-brand a:hover, a:focus { /* Hover Event */
+	text_decoration:  none;
+}
+#navbarNav a:hover, a:focus { /* Hover Event */
+	text_decoration:  none;
+}
+#navbarNav a{
+	color: black;
+}
+
+
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+#Chicken{
+	border: 3px solid black;
+}
+#Beef{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+#Sushi{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+#navbarNav{
+	background-color: #D3D3D3;
+}
+
+
+#main-content {
+	margin-bottom: 180px;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+#main-content > .row > div > .col-container{
+	background-color: #D3D3D3;
+}
+#main-content > .row > div > .col-container > #content{
+	width:  90%;
+	margin: 0 auto 0;
+}
+#main-content > .row > div > .col-container > #content > #title{
+	padding-top: 4px;
+	font-weight: bold;
+	font-size: 1em;
+}
+#main-content > .row > div > .col-container > #content > #description{
+	font-size: 0.8em;
+}
+#main-content > #page-title{
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
